@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Smooth Landing Page</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- GSAP CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- google font -->
+  <!-- Bangers -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <!-- Lobster -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+      <div><a class="logo bangers text-with-image" href="index.html">history</a></div>
+      <button class="menu-toggle logo" id="open-nav" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">☰</button>
+    </div>
+  </header>
+
+  <!-- Sidebar   text-bg-dark -->
+  <nav class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="bangers">
+        <li><a class="sidebar-link" href="index.html">Mở đầu</a></li>
+        <li><a class="sidebar-link" href="#part4">Trước 1954</a></li>
+        <li><a class="sidebar-link" href="#part5">1954-1960</a></li>
+        <li><a class="sidebar-link" href="#part6">1961-1964</a></li>
+        <li><a class="sidebar-link" href="#part7">1965-1968</a></li>
+        <li><a class="sidebar-link" href="#part8">1969-1973</a></li>
+        <li><a class="sidebar-link" href="#part9">1973-1975</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main>
+    <!-- Mở đầu Section -->
+    <section class="panel change-header" id="tag1">
+      <video id="background-video" autoplay muted loop playsinline>
+        <source src="https://res.cloudinary.com/dj3pu8jca/video/upload/v1746698768/ca6j6u9k0v1hzbo6bcio.mp4"
+          type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+      </video>
+      <h1 class="lobster text-stroke text-title center">Việt Nam trong cuộc kháng chiến chống Mỹ <br> Giải phóng miền
+        Nam,
+        thống nhất đất
+        nước<br>(1954-1975)</h1>
+    </section>
+
+    <!-- Giới thiệu Section -->
+    <section class="slider-section" id="tag2">
+      <div class="center container">
+        <h1 class="text-stroke text-title bangers">Hành trình Lịch sử: Cuộc kháng chiến chống Mỹ, cứu nước</h1>
+
+        <div class="row">
+          <div class="image-container col-lg-4">
+            <img class="img_card" src="lib/images/image3.png" alt="">
+
+            <figcaption>Xe tăng Quân giải phóng tiến vào Dinh Độc Lập trưa 30/4/1975</figcaption>
+          </div>
+          <p class="paragraph1 col-lg-8">
+            Sau Hiệp định Genève năm 1954, đất nước ta bị chia cắt làm hai miền với vĩ tuyến 17 là ranh giới tạm thời.
+            Trong khi miền Bắc tiến hành xây dựng chủ nghĩa xã hội, thì đế quốc Mỹ từng bước biến miền Nam thành thuộc
+            địa kiểu mới, dựng lên chính quyền tay sai và sử dụng vũ lực nhằm đàn áp phong trào cách mạng. Trước sự can
+            thiệp ngày càng sâu và trực tiếp của Mỹ, nhân dân Việt Nam dưới sự lãnh đạo của Đảng đã tiến hành cuộc đấu
+            tranh kiên cường, toàn diện và đầy hy sinh để bảo vệ độc lập, tự do và thống nhất Tổ quốc. Đây là cuộc chiến
+            tranh lâu dài, khốc liệt và mang ý nghĩa thời đại sâu sắc.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nội dung Section -->
+    <section class="" id="tag3">
+      <div class="center container">
+        <h1 class="text-title bangers">Lý do mỹ tham chiến tại việt nam</h1>
+        <div class="content-section1">
+          <div class="text-content1">
+            <p class="paragraph1">Sau Thế chiến II, Mỹ xem Việt Nam là một vị trí chiến lược quan trọng ở
+              Đông Nam Á và lo sợ rằng nếu miền Nam rơi vào tay cộng sản, các nước láng giềng như Lào, Campuchia, Thái
+              Lan... cũng sẽ lần lượt rơi vào ảnh hưởng của Liên Xô và Trung Quốc - điều được gọi là "hiệu ứng domino".
+              Từ đó, Mỹ coi việc giữ vững miền Nam Việt Nam là cần thiết để ngăn chặn chủ nghĩa cộng sản lan rộng trong
+              khu vực.</p>
+          </div>
+          <div class="image-container">
+            <img src="lib/images/Domino.png" alt="Hình ảnh mô tả Học thuyết Domino">
+            <figcaption>Học thuyết Domino</figcaption>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <div class="space"></div>
+    <div id="part4"></div>
+    <section id="tag4">
+      <section id="tag4-1">
+        <div class="center container">
+          <h1 class="fade-in merriweather ">Giai đoạn tiền chiến chống Mỹ</h1>
+        </div>
+      </section>
+
+      <section class="section" id="tag4-2">
+        <div class="container1 center">
+          <div class="title-section">
+
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 2 tháng 9 năm 1945</p>
+            <h1>Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/HoChiMinh.png" alt="">
+              <figcaption>Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập.</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Tại Quảng trường Ba Đình, Hà Nội, Chủ tịch Hồ Chí Minh thay mặt Chính phủ lâm thời
+                đã trang trọng đọc
+                bản Tuyên ngôn Độc lập, tuyên bố trước quốc dân đồng bào cả nước và toàn thể thế giới,
+                khai sinh nước Việt Nam Dân chủ Cộng hòa (nay là Cộng hòa Xã hội chủ nghĩa Việt Nam).</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tag4-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1946-1954)</p>
+            <h1>Cuộc kháng chiến chống Pháp</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/DienBienPhu.png" alt="Chiến dịch Điện Biên Phủ">
+              <figcaption>Chiến dịch Điện Biên Phủ</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Kháng chiến chống Pháp chính thức bùng nổ vào cuối năm 1946 sau các nỗ lực đàm phán
+                thất bại. Trong suốt 8
+                năm, Việt Minh tổ chức chiến tranh du kích và tổng lực. Từ năm 1950, Mỹ bắt đầu viện trợ tài chính và
+                đã tài trợ tới 80% chi phí chiến tranh cho Pháp. Cuộc chiến kết thúc bằng chiến
+                thắng chiến dịch Điện Biên Phủ (7/5/1954), buộc Pháp phải ký Hiệp định Genève, chấm
+                dứt chiến tranh và rút khỏi Đông Dương.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </section>
+
+    <div id="part5"></div>
+
+    <section class="section" id="tag5">
+      <section id="tag5-1">
+        <div class="center container">
+          <h1 class="merriweather fade-in">Bối cảnh lịch sử Việt Nam sau Hiệp định Genève (1954-1960)</h1>
+        </div>
+      </section>
+
+      <section class="section" id="tag5-2">
+        <div class="container1 center">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1954-1960)</p>
+            <h1>Miền Bắc khôi phục sản xuất - Xây dựng xã hội chủ nghĩa</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/HopQuyHoach.png" alt="">
+              <figcaption>Chủ tịch Hồ Chí Minh xem, góp ý vào bản dự án quy hoạch thủ đô, tháng 11/1959.</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Chính phủ đã tập trung vào cải cách ruộng đất, xóa bỏ chế độ phong kiến, dù gặp phải
+                một số sai lầm nhưng đã kịp thời sửa chữa. Tái thiết công nghiệp, giao thông và phát triển giáo dục, y
+                tế.
+                Từ năm 1958, phong trào hợp tác hóa nông nghiệp lan rộng. Trong lĩnh vực công nghiệp và thủ công nghiệp,
+                nhiều xí nghiệp quốc doanh được thành lập. Cùng với đó, hệ thống giáo dục được mở rộng,
+                tỷ lệ biết chữ tăng lên, các hoạt động văn hóa, y tế được chú trọng.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tag5-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1954-1960)</p>
+            <h1>Miền Nam đấu tranh dưới ách kìm kẹp của Mỹ - Diệm</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/NhanDanMienNamDungDayDauTranh.png" alt="">
+              <figcaption>Nhân dân miền Nam Việt Nam vùng dậy đấu tranh</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Sự tràn ngập hàng hóa từ Mỹ đã làm suy yếu ngành công nghiệp và thủ công nghiệp.
+                Đến năm 1959, số người thất nghiệp trên toàn miền Nam lên tới 1,5 triệu người. Chính quyền Ngô
+                Đình Diệm đã triển khai các chính sách nhằm kiểm soát và đàn áp phong trào lao động. Mặc dù đối mặt
+                với sự đàn áp khốc liệt, phong trào đấu tranh của công nhân và người lao động miền Nam vẫn phát
+                triển mạnh mẽ. Từ năm 1954 đến
+                1960, đã có hơn 2.300 cuộc đấu tranh diễn ra trên khắp miền Nam.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tag5-4">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Cuối năm 1959-1960</p>
+            <h1>Phong trào Đồng khởi và bước ngoặt của cách mạng miền Nam</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/PhongTraoDongKhoi.png" alt="">
+              <figcaption>Phong trào Đồng Khởi của tỉnh Bến Tre của "Đội quân tóc dài"</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Ngô Đình Diệm thực hiện các chính sách đàn áp phong trào cách mạng.
+                Luật 10-59 được ban hành, cho phép xử tử những người bị nghi ngờ là cộng sản. Phong
+                trào bắt đầu từ các cuộc nổi dậy lẻ tẻ ở Vĩnh Thạnh, Bác Ái (2/1959), Trà Bồng (8/1959).
+                Đỉnh điểm là cuộc Đồng khởi tại Bến Tre vào ngày 17/1/1960, làm tan rã nhiều cơ sở ở vùng
+                nông thôn miền Nam, mở rộng vùng giải phóng và tạo điều kiện thuận lợi cho cách mạng phát triển.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <div id="part6"></div>
+    <section class="section" id="tag6">
+      <section id="tag6-1">
+        <div class="center container">
+          <h1 class="merriweather fade-in">Từ 1961 đến 1964</h1>
+        </div>
+      </section>
+      <section class="section" id="tag6-2">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1961-1965)</p>
+            <h1>Chiến lược "Chiến tranh đặc biệt" được Mỹ triển khai</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TrucThangVan.png" alt="">
+              <figcaption>Mỹ và quân đội tay sai đổ quân bằng chiến thuật trực thăng vận</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1"> Âm mưu là "Dùng người Việt
+                đánh người Việt", tăng viện trợ quân sự cho chính quyền Sài Gòn, sử dụng chiến thuật "trực thăng vận"
+                và "thiết xa vận" nhằm tấn công bất ngờ, bao vây và đánh úp vào lực lượng cách mạng miền Nam. Lập ấp
+                chiến lược để cách ly thường dân khỏi lực lượng du kích quân Giải phóng. Ban
+                đầu, kế hoạch Ấp chiến lược thực hiện khá hiệu quả, tuy nhiên về sau thì phản tác dụng do nhiều quan
+                chức tham nhũng.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag6-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 2 tháng 1 năm 1963</p>
+            <h1>Trận Ấp Bắc, đánh dấu sự thất bại của chiến lược "Chiến tranh đặc biệt" của Mỹ</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TranApBac.png" alt="">
+              <figcaption>Trực thăng của quân đội Mỹ bị bắn rơi trong trận Ấp Bắc</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Trận đánh diễn ra ác liệt từ sáng đến chiều ngày 2/1/1963. Quân Giải phóng đã bắn
+                rơi 5 trực thăng, tiêu diệt và làm bị thương hàng trăm binh sĩ đối phương, trong đó có 3 cố vấn Mỹ thiệt
+                mạng và 8 người bị thương. Đây là lần đầu tiên lực lượng vũ trang cách mạng miền Nam đánh bại chiến
+                thuật "trực thăng vận" và
+                "thiết xa vận" của Mỹ - Ngụy, mở ra bước ngoặt trong cuộc kháng chiến chống Mỹ.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag6-4">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 8/5 - 2/11/1963</p>
+            <h1>Ngọn lửa Phật giáo 1963, khởi đầu cho sự tan rã của chính quyền Ngô Đình Diệm</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/ThichQuanDucTuThieu.png" alt="">
+              <figcaption>Hoà thượng Thích Quảng Đức tọa thiền tự thiêu vì đạo pháp</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Nguyên nhân do Ngô Đình Diệm kỳ thị Phật giáo, nên đã ra
+                lệnh cấm treo cờ Phật giáo đúng vào dịp lễ Phật Đản. Ngày 8/5/1963, hàng ngàn Phật tử biểu tình bị đàn
+                áp bằng vũ lực. Ngày 11/6/1963 Hòa thượng Thích Quảng Đức, lúc đó 66 tuổi, tự rưới xăng lên người và
+                châm lửa tự thiêu. Sự kiện này gây chấn động trong và ngoài nước. Đẩy phong trào Phật giáo và phong trào
+                chống Diệm lên cao trào.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag6-5">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 1-2/11/1963</p>
+            <h1>Cuộc đảo chính quân sự làm lật đổ chính quyền Ngô Đình Diệm</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/NgoDinhDiemDie.png" alt="">
+              <figcaption>Một sỹ quan đảo chính tươi cười chụp ảnh bên xác Ngô Đình Diệm</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Nguyên nhân do chính quyền Ngô Đình Diệm bị chỉ trích nặng nề vì độc tài, gia đình
+                trị và đặc biệt là đàn áp Phật giáo. Rạng sáng 1/11/1963, nhóm tướng lĩnh Quân lực Việt Nam Cộng hòa
+                với sự ủng hộ của Mỹ phát động đảo chính. Sáng 2/11/1963, họ bị bắt và bị ám sát tại một xe bọc thép.
+                Chấm dứt 9 năm cầm quyền của Ngô Đình Diệm. Tướng Dương Văn Minh đứng đầu lên nắm quyền.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <div id="part7"></div>
+    <section class="section" id="tag7">
+      <section id="tag7-1">
+        <div class="center container">
+          <h1 class="merriweather fade-in">Từ 1965 đến 1968
+          </h1>
+        </div>
+      </section>
+      <section class="section" id="tag7-2">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1965-1968)</p>
+            <h1>Mỹ và đồng minh tràn vào Việt Nam: Khởi đầu giai đoạn Chiến tranh Cục bộ khốc liệt</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/QuanMyDoBoVaoDaNang.png" alt="">
+              <figcaption>Những toán lính Mỹ đầu tiền đổ bộ lên bãi biển Đà Nẵng với những khí tài hiện đại.
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Đây là nỗ lực quy mô lớn của Mỹ nhằm kết thúc chiến tranh trong thời gian ngắn bằng
+                ưu thế quân sự áp đảo. Bằng sử dụng quân đội Mỹ và các đồng minh.
+                Đến năm 1968, lực lượng Mỹ tại đây đã vượt quá 500.000 quân. Mục tiêu của kế hoạch là giành lại và kiểm
+                soát các vùng nông thôn,
+                tiêu diệt lực lượng Giải phóng miền Nam, đồng thời gây sức ép buộc Hà Nội phải đàm phán trong thế yếu.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag7-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1965-1968)</p>
+            <h1>Tội ác chiến tranh của người Mỹ và đồng minh trong giai đoạn (1965-1968)</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/ThonMyLai.png" alt="">
+              <figcaption>Lính Mỹ tàn sát người già, đàn bà và trẻ con trong thôn Mỹ Lai.
+                <a href="https://vi.wikipedia.org/wiki/Th%E1%BA%A3m_s%C3%A1t_M%E1%BB%B9_Lai#/media/T%E1%BA%ADp_tin:My_Lai_massacre_woman_and_children.jpg"
+                  target="_blank">xem thêm</a>
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Quân đội Mỹ và đồng minh sử dụng "đếm xác" làm thước đo thành tích. Để đạt được con
+                số này, họ không ngần ngại sử dụng bom đạn hủy diệt và chất độc hóa học. Những cuộc càn quét quy mô lớn
+                vào các vùng bị nghi có du kích
+                đi kèm hành vi phá làng, tra tấn, hiếp dâm, bắn giết bừa bãi đã gây ra thảm kịch nhân đạo sâu sắc.
+                Những tội ác này bị che giấu cho đến khi
+                “Hồ sơ Lầu Năm Góc” bị rò rỉ, làm rúng động công chúng ở Mỹ cũng như dư luận thế giới.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag7-4">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 14 - 18/11/1965</p>
+            <h1>Trận đánh lớn "đầu tiên" giữa Quân đội Hoa Kỳ và Quân đội Nhân dân Việt Nam</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/Tran Ia Đrăng.png" alt="">
+              <figcaption>Không kỵ bị phục kích tại LZ Albany khiến 155 người chết, 121 bị thương.
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Ngay khi đặt chân xuống bãi đáp X-Ray, quân Mỹ đã lập tức vấp phải đòn tấn công dữ
+                dội từ Quân đội Nhân dân Việt Nam. Giao tranh diễn ra khốc liệt khiến lực lượng Mỹ chịu thiệt hại nặng
+                nề. Sau trận X-Ray, quân Mỹ tổ chức rút lui về bãi đáp Albany, nhưng trên đường hành quân lại tiếp tục
+                bị Trung đoàn 66 của QĐNDVN phục kích. Đây được xem là một trong những trận phục kích đẫm máu nhất đối
+                với quân đội Mỹ trong giai đoạn đầu của Chiến tranh Việt Nam.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag7-5">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 21/1 - 9/7/1968</p>
+            <h1>Ván cờ nghi binh cao tay khiến Tướng William C. Westmoreland bị dắt mũi</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TranChienKheSanh.png" alt="">
+              <figcaption>Máy bay vận tải C-130 của Mỹ trúng đạn khi hạ cánh, lao xuống và bốc cháy</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">Chiến dịch Đường 9 - Khe Sanh (1968) là một trong những trận đánh nghi binh chiến
+                lược của Quân Giải phóng. Trận nghi binh diễn ra chân thực đến mức khiến Tổng chỉ huy quân đội Mỹ (Tướng
+                Westmoreland) phải điều động
+                một lượng lớn quân từ các khu vực khác, lên tăng viện cho Khe Sanh. Việc này vô hình trung đã giúp phân
+                tán lực lượng Mỹ và góp phần tạo yếu tố bất ngờ cho cuộc tổng tấn công sắp tới.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag7-6">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 30-31/1/1968</p>
+            <h1>Tổng công kích và nổi dậy Tết Mậu Thân 1968</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TetMauThanMap.png" alt="">
+              <figcaption>Bản đồ các cuộc tấn công trong sự kiện Mậu Thân.</figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Đêm Giao thừa mùng 1 Tết Mậu Thân (30-31/1/1968). Các lực lượng vũ trang cách mạng đồng
+                loạt tấn công hơn 40 thành phố và thị xã trên toàn miền Nam. Các trận đánh diễn ra vô cùng ác liệt, gây
+                tổn thất nặng nề cho quân đội Mỹ và chính quyền Sài Gòn. Việc lực lượng cách mạng đánh thẳng
+                vào các cơ quan đầu não - những nơi được xem là "bất khả xâm phạm" đã đánh một cú sốc tâm lý, buộc Mỹ
+                phải chuyển từ thế chủ động tấn công sang phòng ngự và tìm giải pháp để thoát khỏi cuộc chiến.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <div id="part8"></div>
+    <section class="section" id="tag8">
+      <section id="tag8-1">
+        <div class="center container">
+          <h1 class="merriweather fade-in">Từ 1969 đến 1973
+          </h1>
+        </div>
+      </section>
+      <section class="section" id="tag8-2">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1969 - 1973)</p>
+            <h1>Việt Nam hóa chiến tranh - Kế hoạch thất bại cuối cùng của Mỹ tại Việt Nam</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/LinhMyRutVeNuoc.png" alt="">
+              <figcaption>
+                Những người lính Mỹ cuối cùng rút khỏi Việt Nam, ngày 29-3-1973
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Sau thất bại nặng nề của chiến lược “Chiến tranh cục bộ” và cú sốc từ cuộc "Tổng tiến công Tết Mậu Thân
+                1968". Tổng thống Richard Nixon đã đề ra chính sách “Việt Nam hóa chiến tranh”. Mục tiêu chính là tăng
+                cường năng lực tác chiến cho quân ngụy Sài Gòn, tạo điều kiện để quân Mỹ rút dần khỏi Việt Nam trong thế
+                “danh dự”. Đồng thời làm xoa dịu làn sóng phản đối dữ dội trong nước và sức ép từ
+                dư luận quốc tế đối với cuộc chiến tranh ngày càng bị xem là phi nghĩa.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag8-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 29/4 - 22/7/1970</p>
+            <h1>Chiến lược chặn đường tiếp tế và cái giá khủng khiếp cho Campuchia</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/MyDemQuanQuaCambuchia1970.png" alt="">
+              <figcaption>
+                Phi đội 2, Trung đoàn Kỵ binh Thiết giáp 11 tiến vào Snuol, Campuchia
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Với âm mưu cắt đứt con đường Đường mòn Hồ Chí Minh, Mỹ đã giật dây lật đổ chính
+                quyền Sihanouk tại Campuchia. Sau khi lên nắm quyền, Lon Nol ngay lập tức ra tay, cho chính quyền Sài
+                Gòn
+                cùng Mỹ huy động hàng chục
+                nghìn quân, đổ bộ và đánh sâu vào các vùng đông Campuchia để truy
+                quét lực lượng Quân Giải phóng, biến nơi đây thành chiến trường
+                khốc liệt. Đẩy Campuchia vào vực thẳm nội chiến, tạo điều kiện cho bóng ma Khmer Đỏ bành
+                trướng và reo rắc chết chóc sau này.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag8-4">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 8/2 - 24/3/1971</p>
+            <h1>Chiến dịch Lam Sơn 719 và cuộc tháo chạy lịch sử của quân ngụy ở Hạ Lào</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/LamSon1.png" alt="">
+              <figcaption>
+                Quân VNCH "hân hoan" giẫm đạp lên phóng viên khi rút chạy từ Lào.
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Tiếp nối âm mưu đó, đầu năm 1971, Chính quyền Sài Gòn phát động Chiến dịch Lam Sơn 719. Đây là một cuộc
+                thử nghiệm cho kế hoạch "Việt Nam hóa", khi quân ngụy Sài Gòn được hậu thuẫn toàn diện về cơ sở vật
+                chất,
+                kế hoạch, sức mạnh không quân từ Mỹ, nhằm chứng minh khả năng tự gánh vác chiến trường.
+                Tuy nhiên, trước sự phản công
+                quyết liệt và lối đánh linh hoạt của quân Giải phóng, Quân ngụy Sài Gòn tan tác, hứng chịu tổn
+                thất nặng nề và buộc phải tháo chạy tán loạn.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag8-5">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 30/3/1972 - 31/1/1973</p>
+            <h1>Chiến dịch Xuân-Hè 1972</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TanCongQuanTri.png" alt="">
+              <figcaption>
+                Bộ đội ta tấn công vào Quảng Trị (Ảnh tư liệu Bảo tàng Lịch sử Quốc gia)
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Tận dụng thời cơ vàng khi quân ngụy Sài Gòn còn chưa kịp gượng dậy. Quân Giải phóng miền Nam đã phát
+                động Chiến dịch Xuân - Hè 1972, tấn công đồng loạt trên ba
+                hướng trọng điểm: Trị - Thiên, Tây Nguyên và Đông Nam Bộ. Trong đó, thắng lợi lớn nhất là
+                tỉnh Quảng Trị, lần đầu tiên một tỉnh lỵ miền Nam được quản lý bởi lực lượng
+                cách mạng. Chiến dịch Xuân - Hè 1972 là minh chứng sự trưởng thành vượt bậc của Quân Giải phóng miền Nam
+                Việt Nam.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag8-6">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 18 - 29/12/1972</p>
+            <h1>Chiến dịch "Điện Biên Phủ trên không"</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/DienBienPhuTrenKhong.png" alt="">
+              <figcaption>
+                Bệnh viện lớn nhất miền Bắc (BV Bạch Mai) bị ném bom tàn phá.
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Thất bại nối tiếp thất bại đã làm phá sản kế hoạch "Việt Nam hóa chiến tranh". Mỹ đã mở chiến dịch ném
+                bom cuối cùng nhằm "đưa miền Bắc về thời kỳ đồ đá", để miền Bắc không còn là mối đe dọa với miền Nam.
+                Trong 12 ngày đêm lịch sử, bầu trời miền Bắc rực lửa trước hàng nghìn lượt máy bay địch gầm rú. Đáp trả
+                sự tàn bạo đó, bằng tinh thần quả cảm phi thường và lối đánh sáng tạo, quân và dân Việt Nam đã viết nên
+                huyền thoại "Điện Biên Phủ trên không".
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag8-7">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 27 tháng 1 năm 1973</p>
+            <h1>Thất bại toàn diện: Dân tộc Việt Nam buộc Mỹ phải ký Hiệp định Paris 1973</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/Paris1973.png" alt="">
+              <figcaption>
+                Phía Hoa Kỳ ký kết Hiệp Định Paris
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Đối mặt với thất bại toàn diện không thể che đậy trên khắp các mặt trận – quân sự, chính trị, ngoại
+                giao,
+                và đặc biệt là Mỹ bị người dân lên án vì cuộc chiến phi nghĩa kéo dài, giết hại thường dân và sử dụng vũ
+                khí hóa
+                học. Đế quốc Mỹ không còn lựa chọn nào khác ngoài việc phải đặt bút ký vào Hiệp định Paris năm 1973. Ký
+                hiệp định là giải pháp rút lui trong danh dự, nhưng trên thực tế là bước lùi mang tính bắt buộc của một
+                cường quốc trước ý chí độc lập của một dân tộc nhỏ.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <div id="part9"></div>
+    <section class="section" id="tag9">
+      <section id="tag9-1">
+        <div class="center container">
+          <h1 class="merriweather fade-in">Từ 1973 đến 1975
+          </h1>
+        </div>
+      </section>
+      <section class="section" id="tag9-2">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 17/6/1972 - 8/9/1974</p>
+            <h1>Vụ bê bối Watergate</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TongThongNixon.png" alt="">
+              <figcaption>
+                Tổng thống Nixon giải thích về việc công bố bản ghi đã bị chỉnh sửa
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Ngày 17/6/1972, 5 người bị bắt khi đột nhập vào trụ sở Đảng Dân chủ tại tòa nhà Watergate ở Washington
+                D.C. để gắn thiết bị nghe lén và đánh cắp tài liệu, phục vụ cho "Chiến dịch tái tranh cử" của Tổng thống
+                Nixon (thuộc Đảng Cộng hòa). Vụ Watergate làm mất uy tín nghiêm trọng của chính phủ Mỹ. Sự kiện này dẫn
+                đến tổng thống Mỹ Richard Nixon phải từ chức vào ngày 8/9/1974, trở thành tổng thống đầu tiên (và duy
+                nhất cho đến nay) của Hoa Kỳ tự nguyện từ chức.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-3">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm (1973 - 1975)</p>
+            <h1>Bức tranh u ám của Miền Nam Việt Nam sau năm 1973</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/BoTaiSan.png" alt="">
+              <figcaption>
+                Hàng chục xe tăng và cả một chiếc máy bay trực thăng đã bị vứt bỏ
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Sau Hiệp định Paris, Mỹ rút quân khỏi Việt Nam, cùng với vụ bê bối Watergate, số tiền viện trợ bị cắt
+                giảm liên tục. Việc không có tiền trả lương khiến cho sĩ quan và binh lính mất tinh thần, đào ngũ hàng
+                loạt. Lạm phát, khủng hoảng dầu mỏ, thiếu nhiên liệu, đạn dược, phụ tùng thay thế, biến nhiều loại khí
+                tài hiện đại thành những khối sắt vô dụng. Tình hình càng thêm bất ổn khi nội chiến ở
+                Campuchia, Lào đẩy miền Nam Việt Nam vào một cuộc khủng hoảng nghiêm trọng về mọi mặt.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-4">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 15/01/1974 đến Nay</p>
+            <h1>Hành động xâm lược phi pháp của Trung Quốc tại Hoàng Sa (1974)</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/TrungQuocChiemHoanSa.png" alt="">
+              <figcaption>
+                Tàu cá có trang bị vũ trang của TQ khiêu khích (15/1/1974)
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Khi chính quyền Sài Gòn không còn có viện trợ từ Mỹ, Trung Quốc đã tranh thủ
+                đưa quân sang thăm dò và đánh chiếm. Ngày 19/1/1974, quân Trung Quốc tấn công và đánh chiếm các đảo
+                phía Tây. Hậu quả kéo dài đến nay, Trung Quốc đang kiểm soát phi pháp toàn bộ quần đảo Hoàng Sa và một
+                phần quần đảo Trường Sa của Việt Nam. Đối với Việt Nam, đây là nỗi đau lãnh thổ, là vấn đề chủ quyền bất
+                di bất dịch mà chúng ta phải kiên quyết đấu tranh đến cùng để đòi lại.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-5">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 31/12/1974 đến 6/1/1975</p>
+            <h1>Chiến dịch Đường 14-Phước Long - "đòn trinh sát chiến lược"</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/Duong14PhuocLong.png" alt="">
+              <figcaption>
+                Truy kích địch trong thị xã Phước Long, ngày 5/1/1975
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Trước bài toán Mỹ có còn can thiệp quân sự hay không (dù có tin tình báo nói là "không").
+                Bộ chỉ huy ta chưa thể hoàn toàn yên tâm. Bài toán đặt ra là tìm một "điểm nóng" chiến lược mà Mỹ chắc
+                chắn sẽ phải phản ứng mạnh, và Phước Long được chọn. Cuộc chiến đã diễn ra thuận lợi ngoài dự kiến. Suốt
+                cả trận đánh, không hề có bất kỳ dấu hiệu can thiệp quân sự nào từ phía Mỹ. Thắng lợi này đã xóa tan mọi
+                nghi ngờ, từ đó mở toang cánh cửa cho những chiến dịch quyết định sau này.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-6">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Năm 1975</p>
+            <h1>Dấu hiệu ngày toàn thắng đã cận kề</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/ChienDichHue_DaNang.png" alt="">
+              <figcaption>
+                Đà Nẵng, thành phố lớn thứ 2 ở miền Nam Việt Nam thất thủ ngày 29/3/1975
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Sau trận đánh thăm dò chiến lược tại Phước Long. Bộ Chính trị Trung ương Đảng nhận định thời cơ chiến
+                lược đã đến để giải phóng hoàn toàn miền Nam. quân và dân ta đã đồng loạt phát động nhiều chiến dịch
+                lớn. Mở màn là Chiến dịch Tây Nguyên thần tốc, Chiến dịch Huế – Đà Nẵng với thắng lợi vang dội. Quét
+                sạch quân địch ở miền Trung quân tạo thế gọng kìm để chuẩn bị cho chiến dịch Hồ Chí Minh. Tất cả báo
+                hiệu
+                về cuộc chiến tranh đã bước vào hồi kết và ngày toàn thắng đang đếm ngược.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-7">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 29 - 30/4/1975</p>
+            <h1>Chiến dịch Gió lốc "Operation Frequent Wind" và những cái bám càng tuyệt vọng</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/ChienDichGioLoc.png" alt="">
+              <figcaption>
+                Một quan chức Cục tình báo CIA đang tổ chức một cuộc di tản bằng máy bay trực thăng Mỹ
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Vào ngày 28/4/1975 sân bay Tân Sơn Nhất tê liệt vì hỏa lực của quân ta. Không còn sân bay để di tản, Mỹ
+                vội vã phát động Chiến dịch Gió lốc (cuộc di tản bằng trực thăng lớn nhất lịch sử). Sau cuộc chạy đua
+                với thời gian, hơn 7.000 người đã được đưa ra khỏi Sài Gòn trong cảnh hỗn loạn, nhiều người tuyệt vọng,
+                liều mình đu càng để được chạy thoát. Tổng
+                số người Việt Nam, tính cả những người được di tản bằng trực thăng và tự di tản để xin tị nạn tại Hoa
+                Kỳ, là 138.869.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="tag9-8">
+        <div class="center container1">
+          <div class="title-section">
+            <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày 30/4/1975</p>
+            <h1>Đại thắng 30 tháng 4 - Bình minh độc lập, thống nhất trên toàn đất nước</h1>
+          </div>
+          <article class="content-section">
+            <figure class="image-container">
+              <img src="lib/images/HucCongĐinhocLap.png" alt="">
+              <figcaption>
+                Trưa 30/4/1975, xe tăng của quân giải phóng tiến vào dinh Độc lập
+              </figcaption>
+            </figure>
+            <div class="text-content">
+              <p class="paragraph1">
+                Rạng sáng ngày 30/4/1975, quân và dân ta tổng tấn công vào Sài Gòn – Gia Định từ 5 hướng. Khoảng
+                10h30-10h45, xe tăng 843 và 390 tiến thẳng, húc đổ cổng Dinh Độc Lập. Đến 11h30, Tổng thống Dương Văn
+                Minh tuyên bố đầu hàng vô điều kiện. Chính quyền Sài Gòn hoàn toàn sụp đổ, miền Nam được giải
+                phóng. Khép lại trang sử hào hùng về cuộc kháng chiến chống Mỹ cứu nước, kéo dài suốt 21 năm. Giờ đây,
+                non sông liền một dải, đất nước Việt Nam bước
+                sang trang sử mới.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section id="tag10">
+      <div class="center container">
+        <div class="title-section">
+          <p class="date"><img class="icon1" src="lib/images/VietNamFlag.png" alt=""> Ngày hôm nay</p>
+          <h1 class="text-title">Để bước đi trên con đường hòa bình, độc lập hôm nay, ông cha ta đã bỏ ra rất nhiều mồ
+            hôi, nước mắt, xương máu và cả cuộc đời. Vì vậy, mỗi người chúng ta phải ra sức học tập, lao động sáng tạo,
+            bồi đắp ý chí tự cường dân tộc và ý thức sâu sắc trách nhiệm xây dựng và bảo vệ vững chắc Tổ quốc.</h1>
+        </div>
+      </div>
+    </section>
+    <section id="tag11">
+      <div class="center container">
+        <div class="title-section">
+          <h1 class="text-title">
+            Thank you for watching!
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- <div id="background"></div> -->
+    <div class="background"></div>
+  </main>
+
+</body>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+
+<script src="script.js"></script>
+
+</html>
