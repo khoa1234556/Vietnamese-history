@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //setUpVideoBGR();
   panelsTop();
   //giảm tốc độ cuộn
-  //scrollSlow();
+  scrollSlow();
   // Ẩn header khi cuộn xuống
   hideHeader();
   // Animation cho các tag
